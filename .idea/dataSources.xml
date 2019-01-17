@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jashnvareh@localhost" uuid="69cd55c3-67ff-4463-a5ee-34ac972cc190">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/jashnvareh</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="challenges@localhost" uuid="28b4bc65-dc19-46cd-8198-370e51ca9a57">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/challenges</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="f5301680-3f65-40ae-adeb-9a04a0df471b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="challenges-service@heroku" uuid="05f6386f-45f8-45ed-a554-e8ed4c01a24d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-235-67-106.compute-1.amazonaws.com:5432/d5i0srch4s1dfk?sslmode=require&amp;user=hpgtxfvocuhpmy&amp;password=3ad7e408d3f4c1b1a29f1d0dea3f5414c1a4aaa14137c8e1568542e27e4aa5f4</jdbc-url>
+    </data-source>
+  </component>
+</project>

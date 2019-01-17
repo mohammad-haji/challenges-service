@@ -1,8 +1,8 @@
 /*################## challenges ###################*/
 DROP TABLE IF EXISTS challenges;
-CREATE TABLE challenges(id serial PRIMARY KEY, title VARCHAR(100), bio VARCHAR(300));
+-- CREATE TABLE challenges(id serial PRIMARY KEY, title VARCHAR(100), bio VARCHAR(300));
 
-create table challenges.challenges
+create table jashnvareh.challenges
 (
   title varchar(100),
   id serial not null,

@@ -44,6 +44,9 @@ The secret key and jwt issuer are stored in `application.properties`.
 It uses a H2 in memory database (for now), can be changed easily in the `application.properties` for any other database.
 You'll need to add the correct maven dependency for the needed `Driver` in `pom.xml`.
 
+#Heroku
+database url: jdbc:postgresql://ec2-54-235-67-106.compute-1.amazonaws.com:5432/jashnvareh?sslmode=require&user=hpgtxfvocuhpmy&password=3ad7e408d3f4c1b1a29f1d0dea3f5414c1a4aaa14137c8e1568542e27e4aa5f4
+
 # Getting started
 
 You need Java and maven installed.
