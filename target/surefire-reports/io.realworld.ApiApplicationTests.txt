@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: io.realworld.ApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.591 s <<< FAILURE! - in io.realworld.ApiApplicationTests
+retrieveTags(io.realworld.ApiApplicationTests)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'formContentFilter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: java.lang.ClassNotFoundException: kotlin.reflect.KotlinReflectionInternalError
+
+userAndProfileTest(io.realworld.ApiApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'formContentFilter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: java.lang.NoClassDefFoundError: kotlin/reflect/KotlinReflectionInternalError
+Caused by: java.lang.ClassNotFoundException: kotlin.reflect.KotlinReflectionInternalError
+
